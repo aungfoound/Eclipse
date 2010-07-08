@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;strings.xml&apos;&#x0D;&#x0A;- Original project: &apos;sudoku2&apos;&#x0D;&#x0A;- Destination element: &apos;strings.xml&apos;&#x0D;&#x0A;- Original element: &apos;strings.xml&apos;" description="Copy file" element1="res/values/strings.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1277836083828" target="/sudoku2/res/values/strings.xml" units="0" version="1.0"/>
+</session>
