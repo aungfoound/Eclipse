@@ -5,4 +5,6 @@
 <fullyQualifiedTypeName name="org.example.sudoku.R.layout"/>
 <fullyQualifiedTypeName name="org.example.sudoku.R.id"/>
 <fullyQualifiedTypeName name="android.view.MenuInflater"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="src.example.sudoku.R.id"/>
 </qualifiedTypeNameHistroy>
