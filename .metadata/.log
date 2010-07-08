@@ -11289,3 +11289,6 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-07-08 23:18:12.353
+!MESSAGE Failed to load properties file for project 'Sudoku'
