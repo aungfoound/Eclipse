@@ -4,7 +4,10 @@
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="org.example.sudoku.R.layout"/>
 <fullyQualifiedTypeName name="org.example.sudoku.R.id"/>
-<fullyQualifiedTypeName name="android.view.MenuInflater"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.view.MenuInflater"/>
+<fullyQualifiedTypeName name="src.example.sudoku.R.menu"/>
 <fullyQualifiedTypeName name="src.example.sudoku.R.id"/>
+<fullyQualifiedTypeName name="android.preference.PreferenceActivity"/>
+<fullyQualifiedTypeName name="src.example.sudoku.R.xml"/>
 </qualifiedTypeNameHistroy>
