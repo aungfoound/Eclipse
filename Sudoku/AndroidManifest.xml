@@ -12,7 +12,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".About"
-        	android:label="@String/about_title">
+        	android:label="@string/about_title">
         </activity>
     </application>
 
