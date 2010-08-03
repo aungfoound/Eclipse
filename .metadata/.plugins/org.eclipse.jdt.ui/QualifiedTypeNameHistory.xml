@@ -7,7 +7,10 @@
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.view.MenuInflater"/>
 <fullyQualifiedTypeName name="src.example.sudoku.R.menu"/>
-<fullyQualifiedTypeName name="src.example.sudoku.R.id"/>
 <fullyQualifiedTypeName name="android.preference.PreferenceActivity"/>
 <fullyQualifiedTypeName name="src.example.sudoku.R.xml"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
+<fullyQualifiedTypeName name="src.example.sudoku.R.string"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="src.example.sudoku.R.id"/>
 </qualifiedTypeNameHistroy>

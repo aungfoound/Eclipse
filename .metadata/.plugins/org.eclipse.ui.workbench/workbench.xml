@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="25" version="2.0">
 <workbenchAdvisor/>
-<window height="581" width="843" x="314" y="184">
+<window height="581" width="1287" x="-52" y="134">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="176" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="84" y="22"/>
@@ -35,41 +35,19 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" partName="Sudoku.java" path="D:/Eclipse/Sudoku/src/src/example/sudoku/Sudoku.java" title="Sudoku.java" tooltip="Sudoku/src/src/example/sudoku/Sudoku.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" partName="Sudoku.java" path="D:/Eclipse/Sudoku/src/src/example/sudoku/Sudoku.java" title="Sudoku.java" tooltip="Sudoku/src/src/example/sudoku/Sudoku.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/src/example/sudoku/Sudoku.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1621" selectionTopPixel="683"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Sudoku Manifest" path="D:/Eclipse/Sudoku/AndroidManifest.xml" title="Sudoku Manifest" tooltip="Sudoku/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/AndroidManifest.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="About.java" partName="About.java" path="D:/Eclipse/Sudoku/src/src/example/sudoku/About.java" title="About.java" tooltip="Sudoku/src/src/example/sudoku/About.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/src/example/sudoku/About.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="336" selectionTopPixel="0"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="about.xml" partName="about.xml" path="D:/Eclipse/Sudoku/res/layout/about.xml" title="about.xml" tooltip="Sudoku/res/layout/about.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/res/layout/about.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1451" selectionTopPixel="653"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="D:/Eclipse/Sudoku/res/values/strings.xml" title="strings.xml" tooltip="Sudoku/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/res/values/strings.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.menu.MenuEditor" name="menu.xml" partName="menu.xml" path="D:/Eclipse/Sudoku/res/menu/menu.xml" title="menu.xml" tooltip="Sudoku/res/menu/menu.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/res/menu/menu.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.xml.XmlEditor" name="settings.xml" partName="settings.xml" path="D:/Eclipse/Sudoku/res/xml/settings.xml" title="settings.xml" tooltip="Sudoku/res/xml/settings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/res/xml/settings.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prefs.java" partName="Prefs.java" path="D:/Eclipse/Sudoku/src/src/example/sudoku/Prefs.java" title="Prefs.java" tooltip="Sudoku/src/src/example/sudoku/Prefs.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/src/src/example/sudoku/Prefs.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="300" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="arrays.xml" partName="arrays.xml" path="D:/Eclipse/Sudoku/res/values/arrays.xml" title="arrays.xml" tooltip="Sudoku/res/values/arrays.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sudoku/res/values/arrays.xml"/>
 </editor>
 </editors>
 <views>
@@ -120,9 +98,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
+<expanded>
+<category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -187,7 +166,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.manifest.ManifestEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -253,6 +232,7 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -278,12 +258,13 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2033097" ratioLeft="258" ratioRight="1011" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.68505746" ratioLeft="298" ratioRight="137" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.46608314" ratioLeft="213" ratioRight="244" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -292,6 +273,7 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -566,12 +548,7 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/src/example/sudoku/Sudoku.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Sudoku/res/layout-land/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Sudoku/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Sudoku/res/layout/about.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/Sudoku/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/src/example/sudoku/About.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Sudoku/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Sudoku/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/src/example/sudoku/About.java"/>
@@ -581,105 +558,119 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.xml.XmlEditor" path="/Sudoku/res/xml/settings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/src/example/sudoku/Prefs.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Sudoku/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/src/example/sudoku/Sudoku.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/Sudoku/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/Sudoku/res/values/arrays.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Sudoku/AndroidManifest.xml"/>
 </editors>
-<item historyLabel="main.xml" index="2"/>
-<item historyLabel="main.xml" index="1"/>
-<item historyLabel="about.xml" index="3"/>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="About.java" index="5">
-<position info="not_deleted" x="327" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="about.xml" index="3"/>
-<item historyLabel="main.xml" index="1"/>
-<item historyLabel="Sudoku.java" index="0">
+<item historyLabel="Sudoku Manifest" index="1"/>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="Sudoku Manifest" index="2"/>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="Sudoku Manifest" index="2"/>
+<item historyLabel="About.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="526" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="1108" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="1102" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="1056" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="1108" y="0"/>
-</item>
-<item historyLabel="Sudoku Manifest" index="6"/>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="Sudoku.java" index="0">
-<position info="not_deleted" x="1108" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="Sudoku Manifest" index="6"/>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="Sudoku Manifest" index="7"/>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="Sudoku Manifest" index="7"/>
-<item historyLabel="About.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1627" y="0"/>
 </item>
-<item historyLabel="Sudoku Manifest" index="7"/>
-<item historyLabel="about.xml" index="10"/>
-<item historyLabel="Sudoku Manifest" index="7"/>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="menu.xml" index="11"/>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku Manifest" index="2"/>
+<item historyLabel="about.xml" index="5"/>
+<item historyLabel="Sudoku Manifest" index="2"/>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="menu.xml" index="6"/>
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1627" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1400" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1376" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1400" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1627" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1595" y="0"/>
 </item>
-<item historyLabel="menu.xml" index="11"/>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="menu.xml" index="6"/>
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1595" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1621" y="0"/>
 </item>
-<item historyLabel="settings.xml" index="12"/>
-<item historyLabel="Sudoku.java" index="9">
+<item historyLabel="settings.xml" index="7"/>
+<item historyLabel="Sudoku.java" index="4">
 <position info="not_deleted" x="1621" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="4"/>
-<item historyLabel="Sudoku Manifest" index="7"/>
-<item historyLabel="settings.xml" index="12"/>
-<item historyLabel="Prefs.java" index="13">
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="Sudoku Manifest" index="2"/>
+<item historyLabel="settings.xml" index="7"/>
+<item historyLabel="Prefs.java" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Prefs.java" index="13">
+<item historyLabel="Prefs.java" index="8">
 <position info="not_deleted" x="250" y="0"/>
 </item>
-<item historyLabel="Prefs.java" index="13">
+<item historyLabel="Prefs.java" index="8">
 <position info="not_deleted" x="246" y="0"/>
 </item>
-<item historyLabel="Prefs.java" index="13">
+<item historyLabel="Prefs.java" index="8">
 <position info="not_deleted" x="300" y="0"/>
 </item>
-<item active="true" historyLabel="Sudoku Manifest" index="14"/>
+<item historyLabel="Sudoku Manifest" index="9"/>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1887" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="arrays.xml" index="12"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="arrays.xml" index="12"/>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1887" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1451" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="478" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1934" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="2238" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="2043" y="1"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="2214" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="2282" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="2318" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="2301" y="1"/>
+</item>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1898" y="0"/>
+</item>
+<item historyLabel="Sudoku Manifest" index="13"/>
+<item historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1898" y="0"/>
+</item>
+<item active="true" historyLabel="Sudoku.java" index="10">
+<position info="not_deleted" x="1436" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -697,6 +688,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Sudoku/AndroidManifest.xml">
+<persistable path="/Sudoku/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="arrays.xml" tooltip="Sudoku/res/values/arrays.xml">
+<persistable path="/Sudoku/res/values/arrays.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="Sudoku/res/values/strings.xml">
+<persistable path="/Sudoku/res/values/strings.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prefs.java" tooltip="Sudoku/src/src/example/sudoku/Prefs.java">
 <persistable path="/Sudoku/src/src/example/sudoku/Prefs.java"/>
 </file>
@@ -706,17 +706,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.menu.MenuEditor" name="menu.xml" tooltip="Sudoku/res/menu/menu.xml">
 <persistable path="/Sudoku/res/menu/menu.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="Sudoku/res/values/strings.xml">
-<persistable path="/Sudoku/res/values/strings.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="about.xml" tooltip="Sudoku/res/layout/about.xml">
 <persistable path="/Sudoku/res/layout/about.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="About.java" tooltip="Sudoku/src/src/example/sudoku/About.java">
 <persistable path="/Sudoku/src/src/example/sudoku/About.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Sudoku/AndroidManifest.xml">
-<persistable path="/Sudoku/AndroidManifest.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" tooltip="Sudoku/src/src/example/sudoku/Sudoku.java">
 <persistable path="/Sudoku/src/src/example/sudoku/Sudoku.java"/>
@@ -738,9 +732,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="sudoku2/res/layout/main.xml">
 <persistable path="/sudoku2/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" tooltip="sudoku2/src/org/example/sudoku/Sudoku.java">
-<persistable path="/sudoku2/src/org/example/sudoku/Sudoku.java"/>
 </file>
 </mruList>
 </workbench>
