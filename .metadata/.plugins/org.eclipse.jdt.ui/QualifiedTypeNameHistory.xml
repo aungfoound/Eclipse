@@ -13,4 +13,11 @@
 <fullyQualifiedTypeName name="src.example.sudoku.R.string"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
 <fullyQualifiedTypeName name="src.example.sudoku.R.id"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="android.app.Dialog"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="src.example.sudoku.R.color"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Align"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.FontMetrics"/>
 </qualifiedTypeNameHistroy>

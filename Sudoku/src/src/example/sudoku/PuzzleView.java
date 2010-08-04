@@ -85,5 +85,72 @@ public class PuzzleView extends View{
 				canvas.drawText(this.game.getTileString(i, j), i * width + x, j * height + y, foreground);
 			}
 		}
+		
+		Log.d(TAG, "selRect=" + selRect);
+		Paint selected = new Paint();
+		selected.setColor(getResources().getColor(R.color.puzzle_selected));
+		canvas.drawRect(selRect, selected);
+	}
+	
+	public boolean onKeyDown(int keyCode, KeyEvent event){
+		Log.d(TAG, "onKeyDown: keycode=" + keyCode + ", event=" + event);
+		switch(keyCode){
+		case KeyEvent.KEYCODE_DPAD_UP:
+			select(selX, selY -1);
+			break;
+		case KeyEvent.KEYCODE_DPAD_DOWN:
+			select(selX, selY + 1);
+			break;
+		case KeyEvent.KEYCODE_DPAD_LEFT:
+			select(selX -1, selY);
+			break;
+		case KeyEvent.KEYCODE_DPAD_RIGHT:
+			select(selX + 1, selY);
+			break;
+		case KeyEvent.KEYCODE_0:
+		case KeyEvent.KEYCODE_SPACE: selSeletctedTile(0); break;
+		case KeyEvent.KEYCODE_1:	 selSeletctedTile(1); break;
+		case KeyEvent.KEYCODE_2:	 selSeletctedTile(2); break;
+		case KeyEvent.KEYCODE_3:	 selSeletctedTile(3); break;
+		case KeyEvent.KEYCODE_4:	 selSeletctedTile(4); break;
+		case KeyEvent.KEYCODE_5:	 selSeletctedTile(5); break;
+		case KeyEvent.KEYCODE_6:	 selSeletctedTile(6); break;
+		case KeyEvent.KEYCODE_7:	 selSeletctedTile(7); break;
+		case KeyEvent.KEYCODE_8:	 selSeletctedTile(8); break;
+		case KeyEvent.KEYCODE_9:	 selSeletctedTile(9); break;
+		case KeyEvent.KEYCODE_ENTER:
+		case KeyEvent.KEYCODE_DPAD_CENTER:
+			game.showKeypadOrError(selX, selY);
+			break;
+		default:
+			return super.onKeyDown(keyCode, event);
+		}
+		return true;
+	}
+	
+	private void select(int x, int y){
+		invalidate(selRect);
+		selX = Math.min(Math.max(x,0), 8);
+		selY = Math.min(Math.max(y,0), 8);
+		getRect(selX, selY, selRect);
+		invalidate(selRect);
+	}
+	
+	public boolean onTouchEvent(MotionEvent event){
+		if(event.getAction() != MotionEvent.ACTION_DOWN)
+			return super.onTouchEvent(event);
+		
+		select((int) (event.getX()/width), (int) (event.getY()/height));
+		game.showKeypadOrError(selX, selY);
+		Log.d(TAG, "onTouchEvent: x " + selX + ", y" + selY);
+		return true;
+	}
+	
+	public void setSelectedTile(int tile){
+		if(game.setTileIfValid(selX, selY, tile)){
+			invalidate();
+		}else{
+			Log.d(TAG, "setSelectedTile : invalid: " + tile);
+		}
 	}
 }
